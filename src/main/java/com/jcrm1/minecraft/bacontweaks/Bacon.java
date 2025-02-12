@@ -53,7 +53,8 @@ public class Bacon {
 			.withStyle(ChatFormatting.BOLD)
 			.withStyle(ChatFormatting.GOLD)
 			.append(Component.literal(" Relog to download.").setStyle(Style.EMPTY.withBold(false)).withStyle(ChatFormatting.YELLOW));
-	private static final String PACK_HASH_ENDPOINT = "https://content.jcrm1.com/sum.txt";
+	// TODO: Add your own pack hash endpoint
+	private static final String PACK_HASH_ENDPOINT = "";
 	private static final HttpClient CLIENT = HttpClient.newHttpClient();
 	private static final HttpRequest PACK_HASH_REQUEST = HttpRequest.newBuilder()
             .uri(URI.create(PACK_HASH_ENDPOINT))
