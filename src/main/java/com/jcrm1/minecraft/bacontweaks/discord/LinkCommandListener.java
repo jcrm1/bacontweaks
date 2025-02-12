@@ -28,10 +28,10 @@ public class LinkCommandListener extends ListenerAdapter {
 	// LINK COMMAND //
 	public static final String LINK_COMMAND_NAME = "endlink";
 	protected static final String LINK_ID_OPTION = "id";
-	protected static final String LINK_INVALID_ID_MESSAGE = "Invalid ID. Use /link in Minecraft";
+	protected static final String LINK_INVALID_ID_MESSAGE = "Invalid ID. Use /beginlink in Minecraft";
 	protected static final String LINK_VALID_ID_MESSAGE = "Successfully linked to user ";
-	protected static final SlashCommandData LINK_COMMAND = Commands.slash(LINK_COMMAND_NAME, "Link your Discord account to your Minecraft account (use /link in Minecraft first)")
-			.addOption(OptionType.STRING, LINK_ID_OPTION, "The ID you were provided with from /link in Minecraft");
+	protected static final SlashCommandData LINK_COMMAND = Commands.slash(LINK_COMMAND_NAME, "Link your Discord account to your Minecraft account (use /beginlink in Minecraft first)")
+			.addOption(OptionType.STRING, LINK_ID_OPTION, "The ID you were provided with from /beginlink in Minecraft");
 	private PlayerMemberLinks pmLinks = null;
 	
 	// STOP COMMAND //
