@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.jcrm1.minecraft.bacontweaks.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "bacontweaks.refmap.json",
+	"mixins": [
+		"MixinDedicatedServer"
+	],
+	"client": [
+	],
+	"minVersion": "0.8"
+}
